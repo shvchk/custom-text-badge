@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <style>
+      form {
+        line-height: 2;
+        width: 20rem;
+      }
+
+      .row {
+        display: flex;
+        align-items: center;
+        margin: .5rem 0;
+      }
+
+      .cell {
+        display: block;
+        flex: 1 auto;
+        width: 50%;
+      }
+
+      .pull-right {
+        float: right;
+      }
+    </style>
+  </head>
+<body>
+  <form>
+    <h3 id='addonOptions'></h3>
+    <div class='row'>
+      <label id='badgeTextLabel' class='cell'></label>
+      <input type='text' id='badgeText' class='cell'>
+    </div>
+    <div class='row'>
+      <label id='badgeColorLabel' class='cell'></label>
+      <input type='color' id='badgeColor' class='cell'>
+    </div>
+    <button type='submit' id='save' class='cell pull-right'></button>
+  </form>
+  <script src='options.js'></script>
+</body>
+</html>

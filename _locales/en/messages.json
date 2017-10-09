@@ -1,0 +1,20 @@
+{
+  "extensionName": {
+    "message": "Custom text badge"
+  },
+  "extensionDescription": {
+    "message": "Displays a badge with custom text"
+  },
+  "options": {
+    "message": "Options"
+  },
+  "badgeText": {
+    "message": "Text"
+  },
+  "badgeColor": {
+    "message": "Color"
+  },
+  "save": {
+    "message": "Save"
+  }
+} 
